@@ -1,0 +1,120 @@
+		body {
+			background-color: white;
+			background-image:url('black.jpg');
+			background-repeat:no-repeat;
+			background-size: 100% 100%;
+			max-width:auto;
+			height:auto;
+			}
+
+			.b {
+			margin: 5px;
+			  float: center;
+			  padding: 1px;
+			  border-radius: 100px;
+			  -moz-border-radius: 60px;
+			  -webkit-border-radius: 60px;
+			}
+
+			h1{
+				padding: 0;
+				margin: 0;
+				color: white;
+				font-size: 20px;
+				font-weight: bold;
+				text-align: center;
+				font-family: verdana;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+				
+			}
+			p{
+				padding: 0;
+				margin: 0;
+				color: white;
+				font-family: mv boli;
+				font-size: 20px;
+				font-weight: bold;
+				text-align: center;
+				letter-spacing: 2px;
+			}
+			input{
+				padding: 0;
+				margin: 0;
+				color: white;
+				font-size: 14px;
+				text-align: center;
+				letter-spacing: 2px;
+			}
+
+
+			h4{
+				font-family: verdana;
+				padding: 0;
+				margin: 0;
+				color: #32CD32;
+				font-size: 60px;
+				font-weight: bold;
+				text-align: center;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+				text-shadow: 4px 4px white;
+			}
+
+			input{
+			  font-family: verdana;
+			  text-align: center;
+			  font-size: 16px;
+			  width: 700px;
+			  height: 30px;
+			  margin: 0 2px;
+			  padding: 0 8px;
+			  background-color: #32CD32;
+
+			  border-style: solid;
+			  border-color: #006400;
+			  border-width: 0px;
+				}
+				
+			button{
+			  font-family: verdana;
+			  text-align: center;
+			  font-size: 16px;
+			  text-align: center;
+			  width: 150px;
+			  height: 40px;
+			  margin: 0 2px;
+			  padding: 0 8px;
+			  background-color: #32CD32;
+
+			  border-style: solid;
+			  border-color: #006400;
+			  border-width: 0px;
+
+			  transition-property: border-width, background-color, padding, border-color;
+			  transition-duration: 0.2s;
+			  transition-timing-function: linear;
+			}
+
+			button:hover {
+			  padding: 0 8px;
+
+			  border-style: solid;
+			  border-color: #006400;
+			  border-width: 2px;
+
+			  transition-property: border-width, background-color, padding, border-color;
+			  transition-duration: 0.2s;
+			  transition-timing-function: linear;
+			}
+
+			button:disabled {
+			  padding: 0 10px;
+			  background-color: rgba(0, 0, 0, 0.1);
+
+			  border-width: 10px;
+
+			  transition-property: border-width, background-color, padding, border-color;
+			  transition-duration: 0.2s;
+			  transition-timing-function: linear;
+			}
